@@ -13,7 +13,7 @@ export default defineConfig({
         short_name: 'Mealo',
         description: 'Un site de recettes en ligne pratique et rapide !',
         theme_color: '#ffffff',
-        background_color: '#ffffff',
+        background_color: '#FFF5E4',
         display: 'standalone',
         start_url: '/',
         icons: [
