@@ -1,7 +1,7 @@
 import { Colors } from "../variables";
 import "../App.css";
 import ButtonMealo from "../components/ButtonMealo";
-import { redirect, useNavigate } from "react-router-dom"
+import {useNavigate } from "react-router-dom"
 
 function Welcome() {
 
