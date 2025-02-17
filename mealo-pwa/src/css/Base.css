@@ -1,0 +1,27 @@
+body,
+html {
+	width: 100% !important;
+	height: 100% !important;
+	margin: 0 !important;
+	padding: 0 !important;
+}
+
+@font-face {
+	font-family: "Roca";
+	src: url("../assets/fonts/RocaRegular.ttf");
+}
+
+@font-face {
+	font-family: "Roca-Thin";
+	src: url("../assets/fonts/RocaThin.ttf")
+}
+
+@font-face {
+	font-family: "Roca-Light";
+	src: url("../assets/fonts/RocaLight.ttf");
+}
+
+#root {
+    height: 100%;
+    width: 100%;
+}
