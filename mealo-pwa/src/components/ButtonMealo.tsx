@@ -25,8 +25,8 @@ export default function ButtonMealo({onClick, label, buttonStyle, style}: Button
             textColor = "#fff";
             break;
         case "lightGreen":
-            selectedStyle = Colors.secondaryColor;
-            textColor = "#fff"
+            selectedStyle = Colors.secondaryColorLight;
+            textColor = Colors.secondaryColorDark;
             break;
         default:
             selectedStyle = Colors.primaryColor;

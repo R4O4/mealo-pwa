@@ -1,8 +1,12 @@
+import React, {useEffect} from 'react'
 import { useNavigate } from "react-router-dom"
 import ButtonMealo from "../components/ButtonMealo";
 import "../css/Welcome.css";
 
 function Welcome() {
+
+  useEffect(() => {document.title = "Mealo - Votre assistant culinaire intelligent"})
+
   const navigate = useNavigate()
   const routeChange = () => {
     let path = "/Login"
